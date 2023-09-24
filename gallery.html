@@ -1,0 +1,120 @@
+<!--Kara-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Golden Elm Gallery</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+		<link type = "text/css" rel = "stylesheet" href = "styles.css"/>
+
+		<meta name="keywords" content = "gallery, furniture, comfy, luxurious">
+		<meta name="description" content = "See Golden Elm furniture in real-life houses!">
+
+		<style>
+			body{
+				background: white;
+			}
+
+
+
+		</style>
+
+
+	</head>
+	<body>
+		<div class ="total">
+			<div class="topBar">
+				<div class="headers">
+					<div class="container">
+						<div id="logo">
+							<a href = "index.html"><img src = "./images/logo.png" alt = "The Golden Elm logo" style = "margin-top: 10px;"></a>
+						</div>
+						<div id="locations"><a href = "locations.html"><span style = "color: #6E5236;">LOCATIONS</style></a></div>
+						<div id="reviews"><a href = "reviews.html"><span style = "color: #6E5236;">REVIEWS</style></a></div>
+						<div id="locations"><a href = "gallery.html"><span style = "color: #6E5236;">GALLERY</style></a></div>
+						<div id="shop"><a href = "shop.html"><span style = "color: #053B23;"><strong>SHOP</strong></style></a></div>
+						<div class="icons">
+							<div id="search">
+								<img src = "./images/magGlass.png" alt = "A magnifying glass icon">
+							</div>
+							<div id="shoppingBag">
+								<img src = "./images/shoppingBag.png" alt = "A shopping bag icon">
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				</div>
+			</div>
+
+			<div class="shopBar">
+				<div id="shopText">Gallery</div>
+				<div id="blueArrow">
+					<img src = "./images/bluearrow.png" alt = "An arrow graphic">
+				</div>
+			</div>
+		</div>
+
+		<div class="w3-content w3-section" style="max-width:100%; z-index: -1;">
+		  
+
+		  <img class="mySlides w3-animate-fading" src="./images/slide1.jpg" alt="A gray couch furnished with pillows" style="width:100%">
+		  <img class="mySlides w3-animate-fading" src="./images/slide2.jpg" alt="A brown couch with a table and cowprint carpet" style="width:100%">
+		  <img class="mySlides w3-animate-fading" src="./images/slide3.jpg" alt="A dining room table decorated with candles" style="width:100%">
+
+		</div>
+
+		<div id="brownLine4">
+		</div>
+
+		<div class = "footer3">
+				<div id="stayUpdated4">
+					<strong>Stay Updated</strong>
+					<div id = "email4">
+						<span style = "margin-left: 10px;">email</style>
+					</div>
+				</div>
+				<div id="bottomLogo4">
+					<a href = "gallery.html"><img src = "./images/logo.png" alt = "The Golden Elm logo"></a>
+				</div>
+				<div id="terms4">
+					Terms & Conditions
+					Contact Us
+					<p style = "margin-top: -0px;">FAQ</p>
+				</div>
+		</div>
+
+
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";  
+		  }
+		  myIndex++;
+		  if (myIndex > x.length) {myIndex = 1}    
+		  x[myIndex-1].style.display = "block";  
+		  setTimeout(carousel, 5000);    
+		}
+		</script>
+
+	</body>
+</html> 

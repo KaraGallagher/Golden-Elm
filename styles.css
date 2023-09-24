@@ -1,0 +1,975 @@
+/*Kara*/
+
+body {
+	background-image: url("./images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-size: 127px;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	position: relative;
+	width: 100%;
+	height: 187px;
+	background-color: #793C19;
+	margin-top: 250px;
+	text-indent: 200px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#text{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 127px;
+	text-align: center;
+	color: #6E5236;
+}
+
+#logo, #locations, #reviews, #designs, #shop, #search, #shoppingBag{
+	border: 0px solid pink;
+	width: 244;
+	height: 51px;
+	font-size: 43px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1 1 auto;
+	margin-top: 50px;
+	color: #6E5236;
+}
+
+#search, #shoppingBag{
+	margin-top:30px;
+}
+
+#shopNowButton, #arrow{
+	background-color: white;
+	font-size: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #053B23;;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+#ourRoots{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 127px;
+	color: #053B23;
+	margin-top: -150px;
+	position: absolute;
+}
+
+#rootsPhoto{
+	float: left;
+	position: inline-block;
+	margin-left: -10px;
+	padding:0;
+}
+
+#rootsText{
+	float: left;
+	width: 50%;
+	height: 718px;
+	background-color: rgba(255, 255, 255, 0.57);
+	position: inline-block;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 47px;
+	padding: 11px;
+	line-height: 80px;
+}
+
+#shopText{
+	font-size: 127px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #793C19;
+	font-family: 'Dancing Script', cursive;
+	margin-top: -100px;
+
+}
+
+#blueArrow{
+	font-size: 127px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #793C19;
+	font-family: 'Dancing Script', cursive;
+	margin-top: -60px;
+}
+
+#livingBox{
+	width: 423px;
+	height: 164px;
+	background-color: #053B23;
+	position: absolute;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 47px;
+	margin-top: 539px;
+}
+
+#livingImage, #livingBox{
+	border: 0px solid blue;
+	font-size: 127px;
+	display: flex;
+	flex-direction: column;
+	color: #793C19;
+
+}
+
+#livingText{
+	font-size: 32px;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color: white;
+
+}
+
+#livingArrow, #diningArrow, #restingArrow{
+	width: 274px;
+	height: 80px;
+	background-color: #BF9D73;
+	margin-left: 75px;
+	margin-top: 15px;
+}
+
+#arrow1, #arrow2, #arrow3{
+	margin-top: -51px;
+	margin-left: 15px;
+	border: 0px solid orange;
+}
+
+#diningBox{
+	width: 423px;
+	height: 164px;
+	background-color: #053B23;
+	position: absolute;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 47px;
+	margin-top: 539px;
+}
+
+#diningImage, #diningBox{
+	border: 0px solid blue;
+	font-size: 127px;
+	display: flex;
+	flex-direction: column;
+	color: #793C19;
+}
+
+#diningText{
+	font-size: 32px;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color: white;
+
+}
+
+#diningImage{
+	margin-top: -160px;
+}
+
+#restingBox{
+	width: 423px;
+	height: 164px;
+	background-color: #053B23;
+	position: absolute;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 47px;
+	margin-top: 539px;
+}
+
+#restingImage, #restingBox{
+	border: 0px solid blue;
+	font-size: 127px;
+	display: flex;
+	flex-direction: column;
+	color: #793C19;
+}
+
+#restingText{
+	font-size: 32px;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color: white;
+
+}
+
+#restingImage{
+	margin-top: -160px;
+}
+
+#virtualButton, #virtualArrow{
+	font-size: 54px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+#row1{
+	margin-left: 180px;
+	border: 0px solid pink;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 1677px;
+	height: 436px;
+	
+}
+
+#jordan{
+	margin-left: 77px;
+}
+
+#row2{
+	margin-top: 50px;
+	margin-left: 180px;
+	border: 0px solid pink;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 1677px;
+	height: 436px;
+	
+}
+
+#samAndCooper{
+	margin-left: 71px;
+	margin-right: 71px;
+}
+
+#row3{
+	margin-top: 50px;
+	margin-left: 180px;
+	border: 0px solid pink;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 1677px;
+	height: 534px;
+	
+}
+
+#gesin{
+	margin-left: 60px;
+	margin-right: 71px;
+}
+
+#charlie{
+	margin-top: 202px;
+}
+
+#nameRow1{
+	font-size: 32px;
+	color: #793C19;
+	font-family: 'Noto Sans', sans-serif;
+	margin-left: 180px;
+}
+
+#nameRow2{
+	font-size: 32px;
+	color: #793C19;
+	font-family: 'Noto Sans', sans-serif;
+	margin-left: 180px;
+}
+
+#daraText{
+	font-size: 32px;
+	color: #793C19;
+	font-family: 'Noto Sans', sans-serif;
+	width: 391px;
+	height: 50px;
+	z-index: 1;
+	margin-left: 1286px;
+}
+
+#nameRow3{
+	font-size: 32px;
+	color: #793C19;
+	font-family: 'Noto Sans', sans-serif;
+	margin-left: 180px;
+}
+
+#brownLine{
+	width: 100%;
+	height: 27px;
+	background-color: #793C19;
+	margin-top: 100px;
+
+}
+
+#stayUpdated{
+	border: 0px solid pink;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 493px;
+	height: 191px;
+	position: relative;
+	margin-left: 43px;
+	font-size: 72px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #053B23;
+}
+
+#email{
+	margin-top: 20px;
+	border: 3px solid #053B23;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 470px;
+	height: 70px;
+	position: relative;
+	font-size: 43px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #6E5236;
+
+}
+
+#bottomLogo{
+	width: 217px;
+	height: 197px;
+	margin-left: 400px;
+}
+
+#terms{
+	border: 0px solid pink;
+	width: 374px;
+	height: 176px;
+	font-size: 40px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #6E5236;
+	margin-left: 450px;
+	text-align: right;
+	margin-top: 20px;
+}
+
+#buttonForDining2, #arrow2D{
+	background-color: white;
+	font-size: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #053B23;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+#exploreHeader{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 127px;
+	color: #053B23;
+	position: absolute;
+	margin-top: 596px;
+}
+
+#buttonForLiving2, #arrow2L{
+	background-color: white;
+	font-size: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #053B23;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+#buttonForResting2, #arrow2R{
+	background-color: white;
+	font-size: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #053B23;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+#gap{
+	width: 100px;
+	height: 130px;
+}
+
+#kaitlinReviewImage{
+	margin-left: 283px;
+	position: absolute;
+	margin-top: -50px;
+}
+
+#kaitlinReviewText{
+	float: left;
+	position: inline-block;
+	margin-left: 1122px;
+	padding:0;
+	width: 647px;
+	height: 564px;
+	font-size: 32px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #793B17;
+	text-align: center;
+	line-height: 70px;
+	margin-top: 30px;
+
+}
+
+#ronitReviewImage{
+	float: left;
+	position: inline-block;
+	margin-left: 1170px;
+	margin-top: 80px;
+}
+
+#ronitReviewText{
+	margin-left: 250px;
+	position: absolute;
+	padding:0;
+	width: 647px;
+	height: 900px;
+	font-size: 32px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #793B17;
+	text-align: center;
+	line-height: 70px;
+	margin-top: 600px;
+
+}
+
+#jordanReviewImage{
+	margin-left: 283px;
+	position: absolute;
+	margin-top: 1400px;
+}
+
+#jordanReviewText{
+	float: left;
+	position: inline-block;
+	margin-left: 1122px;
+	padding:0;
+	width: 647px;
+	height: 564px;
+	font-size: 32px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #793B17;
+	text-align: center;
+	line-height: 70px;
+	margin-top: 230px;
+
+}
+
+#daraReviewImage{
+	float: left;
+	position: inline-block;
+	margin-left: 1170px;
+	margin-top: 70px;
+}
+
+#daraReviewText{
+	margin-left: 250px;
+	position: absolute;
+	padding:0;
+	width: 647px;
+	height: 900px;
+	font-size: 32px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #793B17;
+	text-align: center;
+	line-height: 70px;
+	margin-top: 2240px;
+
+}
+
+#stayUpdated4{
+	border: 0px solid pink;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 493px;
+	height: 191px;
+	position: block;
+	margin-left: 43px;
+	font-size: 72px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #053B23;
+}
+
+#email4{
+	margin-top: 20px;
+	border: 3px solid #053B23;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 470px;
+	height: 70px;
+	position: block;
+	font-size: 43px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #6E5236;
+
+}
+
+#bottomLogo4{
+	width: 217px;
+	height: 197px;
+	margin-left: 400px;
+}
+
+#terms4{
+	border: 0px solid pink;
+	width: 374px;
+	height: 176px;
+	font-size: 40px;
+	font-family: 'Noto Sans', sans-serif;
+	color: #6E5236;
+	margin-left: 450px;
+	text-align: right;
+	margin-top: 20px;
+}
+
+#brownLine2{
+	width: 100%;
+	height: 27px;
+	background-color: #793C19;
+	margin-top: 180px;
+
+}
+
+#reviewBox{
+	width: 916px;
+	height: 837px;
+	background-color: #053B23;
+	text-align: center;
+	color: white;
+	font-size: 54px;
+	font-family: 'Noto Sans', sans-serif;
+	margin-top: 2900px;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#whiteBox{
+	width: 744px;
+	height: 450px;
+	color: #053B23;
+	background-color: white;
+	margin-top: 70px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	text-indent: 20px;
+}
+
+#greenText{
+	width: 551px;
+	height: 303px;
+	font-size: 60px;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color: #053B23;
+	position: relative;
+	margin-left: 70px;
+}
+
+#storeFront{
+	position: relative;
+	margin-left: 750px;
+	margin-top: -700px;
+}
+
+#capeMay{
+	font-size: 32px;
+	color: #793C19;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	width: 647px;
+	height: 233px;
+	margin-top: 100px;
+}
+
+#vineyard{
+	font-size: 32px;
+	color: #793C19;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	width: 647px;
+	height: 233px;
+	float: right;
+	margin-top: -640px;
+}
+
+#capeCod{
+	font-size: 32px;
+	color: #793C19;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	width: 647px;
+	height: 233px;
+	float: right;
+	margin-top: -290px;
+}
+
+#joinEmailText{
+	font-size: 50px;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color: #053B23;
+	margin-top: 50px;
+}
+
+
+#brownLine3{
+	width: 100%;
+	height: 27px;
+	background-color: #793C19;
+	margin-top: 60px;
+
+}
+
+
+#brownLine4{
+	width: 100%;
+	height: 27px;
+	background-color: #793C19;
+	margin-top: 0px;
+
+}
+
+.total{
+	overflow: hidden;
+	width: 100%;
+}
+
+.headers{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+	border: 0px solid pink;
+	background-color: rgba(255, 255, 255, 0.57);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 150px;
+	align-items: stretch;
+	margin-right: 20px;
+	
+}
+
+.icons{
+	border: 0px solid yellow;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	justify-content: center;
+	align-items: stretch;
+	margin-right: 40px;
+}
+
+.button{
+	border: 4px solid #053B23;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: 666px;
+	height: 80px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main{
+	margin-top: 200px;
+}
+
+.middle{
+	margin-top: 500px;
+	border: 0px solid black;
+}
+
+.shopBar{
+	border: 0px solid #053B23;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: 700px;
+	height: 138px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.shoppingCategories{
+	border: 0px solid #053B23;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	
+	width: 1920px;
+	height: 539px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -100px;
+}
+
+.living, #dining, #resting{
+	border: 0px solid #053B23;
+	font-size: 127px;
+	display: flex;
+	color: #793C19;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+.living{
+	border: 0px solid pink;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 25px;
+	padding: 20px;
+	width: 423px;
+	height: 703px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+
+
+.dining{
+	border: 0px solid pink;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	width: 423px;
+	height: 703px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+
+.resting{
+	border: 0px solid pink;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	width: 423px;
+	height: 703px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+
+}
+
+.homeViewButton{
+	border: 4px solid #053B23;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: 916px;
+	height: 130px;
+	background-color: #053B23;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+
+.footer{
+	border: 0px solid orange;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 290px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+}
+
+.button2{
+	border: 4px solid #053B23;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: 688px;
+	height: 80px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	right: 450px;
+	top: 200px;
+
+}
+
+.boxDining2{
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.button3{
+	border: 4px solid #053B23;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: 688px;
+	height: 80px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	left: 46px;
+	top: 200px;
+	margin-top: -50px;
+
+}
+
+.boxLiving2{
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.button4{
+	border: 4px solid #053B23;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 25px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: 688px;
+	height: 80px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	left: 46px;
+	top: 200px;
+
+}
+
+.boxResting2{
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -600px;
+}
+
+.footer2{
+	border: 0px solid orange;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 220px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+}
+
+.footer3{
+	border: 0px solid orange;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 290px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+}
+
+.footer4{
+	border: 0px solid orange;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 290px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+}
+
+
+.w3-content, .w3-section{
+	margin-top: -80px;
+
+}
